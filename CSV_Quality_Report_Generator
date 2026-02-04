@@ -1,0 +1,9 @@
+CSV Quality Report Generator :
+Scenario : Team receives CSV files from multiple upstream systems. While a basic CSV profiler exists, stakeholders now want a data quality report that can be shared with downstream teams and automation systems.
+
+Build a Python script that:
+
+Profiles a CSV file
+Detects data quality issues
+Produces a structured JSON report
+Can be reused for different CSV files
