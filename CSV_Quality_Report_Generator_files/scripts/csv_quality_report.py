@@ -69,11 +69,11 @@ def generate_quality_report(file_path):
 
 
 if __name__ == "__main__":
-    csv_file = "transactions.csv"
+    csv_file = "../data/transactions.csv"
     report = generate_quality_report(csv_file)
 
     if report:
-        output_file = "csv_quality_report.json"
+        output_file = "../output/csv_quality_report.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(report, f, indent=2)
 
