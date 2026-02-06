@@ -1,0 +1,7 @@
+order_id,region,product,quantity,price
+4001,East,Keyboard,2,1500
+4002,West,Mouse,,500
+4003,East,Monitor,1,12000
+4004,South,Keyboard,1,1500
+4005,West,Monitor,2,12000
+4005,West,Monitor,2,12000
